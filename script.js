@@ -7,8 +7,6 @@
 /////////////////////////////////////////////////
 // Data
 
-// DIFFERENT DATA! Contains movement dates, currency and locale
-
 const account1 = {
   owner: 'Jonas Schmedtmann',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
@@ -251,3 +249,18 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
+
+// Conversion
+console.log(Number('23'));
+console.log(+'23');
+
+// Parsing
+console.log(Number.parseInt('30px', 10));
+console.log(Number.parseFloat('2.5rem', 10));
+
+// Check if value is not a number
+console.log(Number.isNaN(20));
+
+// Check if value is a number
+console.log(Number.isFinite(20));
+console.log(Number.isInteger(20));
