@@ -293,3 +293,10 @@ console.log(Math.ceil(23.8));
 // Rounding decimals
 console.log(+(2.7).toFixed(0));
 console.log(+(2.7245).toFixed(2));
+
+// Modulo
+const isEven = n => n % 2 === 0;
+
+[...document.querySelectorAll('.movements__row')].forEach(function (row, i) {
+  if (i % 2 === 0) row.style.backgroundColor = 'red';
+});
